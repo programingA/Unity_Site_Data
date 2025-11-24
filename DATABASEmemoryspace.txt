@@ -127,7 +127,7 @@ CREATE TABLE login_log (
 -- ----------------------------------------------------------------------------
 INSERT INTO users (id, username, passwordHash, nickname, email, liveIn, role, status, penaltyEndAt) VALUES
 (1, 'star_admin',  'hash1', '관리자',   'admin@example.com', '서울',      'ADMIN', 'ACTIVE', NULL),
-(2, 'user_alpha',  'hash2', '알파',     'alpha@example.com', '부산',      'USER', 'ACTIVE', NULL),
+(2, 'alpha',  '1234', '알파',     'alpha@example.com', '부산',      'USER', 'ACTIVE', NULL),
 (3, 'user_beta',   'hash3', '베타',     'beta@example.com',  '대구',      'USER', 'ACTIVE', NULL),
 (4, 'user_gamma',  'hash4', '감마',     'gamma@example.com', '인천',      'USER', 'SUSPENDED', '2025-12-31 23:59:59'),
 (5, 'user_delta',  'hash5', '델타',     'delta@example.com', '대전',      'USER', 'ACTIVE', NULL),
