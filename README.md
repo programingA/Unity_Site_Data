@@ -11,5 +11,3 @@
 | DATABASE.txt | Database structure |
 | DATASET.txt | Database data-set |
 | build.zip | Built React code |
-| Unity_Site_error.zip | manager part error file |
-| public.zip | error react file |
